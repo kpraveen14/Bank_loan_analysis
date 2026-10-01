@@ -1,52 +1,104 @@
-# 🏦 Bank Loan Analysis
+# 🏦 Bank Loan Analysis | Data Analytics Project
 
 ## 📌 Project Overview
 
-This project focuses on analyzing bank loan data using **SQL, Excel, and Power BI** to understand loan applications, approval status, loan amounts, customer profiles, and overall loan performance.
+This project analyzes bank loan data to understand loan applications, approval performance, customer profiles, loan amounts, credit behavior, and key financial metrics.
 
-The project covers the complete data analysis process — from data cleaning and SQL analysis to creating an interactive Power BI dashboard.
+The project demonstrates an end-to-end **Data Analytics workflow**, including data cleaning, exploratory analysis, KPI development, SQL analysis, data visualization, and interactive dashboard creation.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Business Objectives
 
-- Analyze total loan applications
-- Identify approved and rejected loans
-- Analyze loan amounts and repayment-related metrics
-- Understand customer income and employment patterns
-- Analyze loan purposes and customer segments
-- Calculate important financial KPIs
-- Extract meaningful business insights from loan data
+- Analyze overall loan application performance
+- Track key loan and customer KPIs
+- Compare approved and rejected loan applications
+- Analyze loan amounts and interest rates
+- Identify trends across loan purposes
+- Understand customer income and credit profiles
+- Analyze employment experience and home ownership
+- Generate actionable business insights
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **SQL / MySQL** – Data analysis and business queries
-- **Microsoft Excel** – Data cleaning and initial analysis
-- **Power BI** – Interactive dashboard and visualization
-- **GitHub** – Project documentation and version control
+| Tool | Purpose |
+|------|---------|
+| **MySQL / SQL** | Data analysis and business queries |
+| **Microsoft Excel** | Data cleaning, exploration and analysis |
+| **Power BI** | KPI development, data visualization and dashboarding |
+| **DAX** | KPI calculations and analytical measures |
+| **Power Query** | Data transformation and preparation |
+| **GitHub** | Project documentation and version control |
 
 ---
 
-## 📊 Key Analysis
+## 🧹 Data Cleaning & Preparation
 
-### SQL Analysis
+The dataset was prepared before analysis by:
 
-SQL queries were used to analyze:
+- Checking missing and inconsistent values
+- Validating data types
+- Identifying duplicate records
+- Checking numerical ranges
+- Preparing categorical fields
+- Transforming data for analysis
+- Creating calculated fields where required
 
-- Total loan applications
-- Total loan amount
-- Average loan amount
-- Approved vs rejected loans
-- Loan approval rate
-- Loan purpose analysis
-- Customer income analysis
-- Employment experience
-- Home ownership
-- Interest rates
-- Credit scores
-- Loan status
+---
+
+## 📊 Key Performance Indicators (KPIs)
+
+The analysis focuses on important banking and loan KPIs such as:
+
+- **Total Loan Applications**
+- **Total Loan Amount**
+- **Average Loan Amount**
+- **Approved Loan Applications**
+- **Rejected Loan Applications**
+- **Loan Approval Rate**
+- **Average Interest Rate**
+- **Average Credit Score**
+- **Average Customer Income**
+- **Average Employment Experience**
+
+These KPIs provide a high-level view of loan portfolio performance.
+
+---
+
+## 📈 Data Visualization
+
+Interactive visualizations were created to identify patterns and trends across the dataset.
+
+### Visualizations Include:
+
+- KPI Cards
+- Bar Charts
+- Column Charts
+- Line Charts
+- Donut Charts
+- Tables
+- Slicers / Filters
+- Trend Analysis
+- Category-wise Comparisons
+
+### Analysis Areas:
+
+- Loan Status
+- Loan Intent
+- Loan Amount
+- Interest Rate
+- Customer Income
+- Credit Score
+- Employment Experience
+- Home Ownership
+
+---
+
+## 🗄️ SQL Analysis
+
+SQL was used to answer business questions and extract meaningful insights from the loan dataset.
 
 ### SQL Concepts Used
 
@@ -65,20 +117,34 @@ SQL queries were used to analyze:
 
 ---
 
-## 📈 Power BI Dashboard
+## 📊 Power BI Dashboard
 
-The Power BI dashboard provides an interactive view of:
+The interactive Power BI dashboard presents the analysis through:
 
-- Total Loan Applications
-- Total Loan Amount
-- Average Loan Amount
-- Approval Rate
-- Loan Status
-- Loan Intent
-- Customer Income
-- Credit Score
-- Employment Experience
-- Home Ownership
+- KPI cards
+- Interactive charts
+- Loan performance analysis
+- Customer segmentation
+- Loan purpose analysis
+- Credit and income analysis
+- Interactive filters and slicers
+
+The dashboard allows users to explore the data and identify important patterns quickly.
+
+---
+
+## 🔍 Business Insights
+
+The analysis focuses on questions such as:
+
+- How many loan applications were received?
+- What percentage of applications were approved?
+- Which loan purposes have the highest application volume?
+- What is the average loan amount?
+- How does income vary across customers?
+- What is the relationship between credit score and loan approval?
+- Which customer segments have higher loan amounts?
+- How do interest rates vary across different loan categories?
 
 ---
 
